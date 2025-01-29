@@ -4,6 +4,6 @@ output "ec2_public_ip" {
 }
 
 output "ec2_instance_id" {
-  description = "ID of the EC2 instance"
+  description = "EC2 instance ID ciktisi."
   value = aws_instance.basic_ec2.id
 }
