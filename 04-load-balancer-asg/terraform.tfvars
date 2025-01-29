@@ -1,0 +1,12 @@
+vpc_cidr = "10.0.0.0/16"
+subnet_cidr_one = "10.0.1.0/24"
+subnet_cidr_two = "10.0.2.0/24"
+allowed_ssh_ip_block = "0.0.0.0/0"
+lb_name = "my-alb"
+ami_id = "ami-0c02fb55956c7d316"
+instance_type = "t2.micro"
+min_size = 1
+max_size = 3
+desired_capacity = 2
+subnet_ids = [ "10.0.1.0/24","10.0.2.0/24" ]
+availability_zones = ["us-east-1a", "us-east-1b"]
